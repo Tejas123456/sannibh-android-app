@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bhadresha.tejas.sannibh.navigation">
+
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Log in"></item>
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@mipmap/ic_people_black_24dp"
+        android:title="About Us"></item>
+
+    <item
+        android:id="@+id/nav_services"
+        android:icon="@mipmap/services"
+        android:title="Services"></item>
+
+    <item
+        android:id="@+id/nav_cppd"
+        android:icon="@mipmap/cppd"
+        android:title="CPPD"></item>
+
+    <item android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Gallery"></item>
+
+    <item android:id="@+id/nav_contact"
+        android:icon="@mipmap/call"
+        android:title="Contact Us"></item>
+
+    <item android:id="@+id/nav_exit"
+        android:icon="@drawable/abc_exit"
+        android:title="Exit"></item>
+</menu>

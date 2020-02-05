@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/texture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/finishing_school_layout"
+    tools:context="com.bhadresha.tejas.sannibh.finishing_school">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="\u2022 In present times, the four pillars of learning as envisioned by UNESCO are regarded as the fundamental principles for reshaping education.
+\n\u2022 The four pillars are:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="#6666ff"
+                android:text="Learning To Know"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="Learning to know is focused on how an individual thinks, processes information, improves concentration and memory. Basically it deals with cognitive tools required for comprehension. This is very efficiently nurtured through formal education in schools and colleges and through it is laid down an appropriate and adequate foundation for future learning.
+
+"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="#6666ff"
+                android:text="Learning To Do"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="Learning to do is focused on how to use education in real life settings and how can one adapt it to future. Basically it deals with providing the skills that would enable individuals to effectively participate in the global economy and society."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="#6666ff"
+                android:text="Learning To Be"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="Learning to be is focused on the skills that provide support system for ones cognitive skills and transfer of learning. Basically it deals with providing self-analytical and social skills to the individuals to enable them to develop psycho-socially, affectively as well as physically to their fullest potential.
+
+"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="#6666ff"
+                android:text="Learning To Live Together"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="Learning to live together is focused on the skills that provide support for mutual understanding and progress. Basically it deals with inculcating in the values of democracy and respect and peace at all levels of society.
+
+"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="\n\n\u2022 Another aspect which is being focused upon in the field of Education is Life Skills.
+\n\u2022 We, at Sannibh Technologies clearly perceive this and our services and programmes are designed and delivered to the individuals in such a way so as to strengthen the pillars of education by focusing on development and enhancement of life skills.
+\n\u2022 The International Bureau of Education defines life skills as personal management and social skills which are necessary for an adequate functioning on an independent basis.
+\n\u2022 Relating the four pillars of education with life skills and trying to derive some kind of understanding, points towards having a mixture of knowledge, behaviour, attitudes and values in an individual to reach a goal.
+\n\u2022 Our Training Programmes, Workshops and Mentoring Programme have been built up and designed to focus upon the Learning to know domain specifically catering to the learning to do domain.
+\n\u2022 The Objective of the Finishing School is to offer courses designed specifically to cater to the domain of learning to be and learning to live together which are of utmost importance in the present times as they have become pre-requisites for successful performance. Soft skills are becoming increasingly valuable along with hard skills for graduates trying to navigate todays workplace.
+\n\u2022 They matter a lot as they help individuals thrive in a rapidly changing technological world."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="\n\nGetting organized in the normal routines of life and finishing little projects you have started is an important first step towards realizing larger goals. If you cannot get a handle on the small things, how will you ever get it together to focus on the big things?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/mainColor"
+                android:text="-Joyce Meyer\n"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/mainColor"
+
+                android:textSize="25dp"
+                android:text="The content and course of the finishing school is designed to integrate the following skills in the individuals repertoire as per the global standards :-"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+
+                android:text="\u2022 Effective Communication
+\n\u2022 Creative Thinking
+\n\u2022 Collaboration
+\n\u2022 Adaptability
+\n\u2022 Leadership
+\n\u2022 Decision making
+\n\u2022 Problem Solving
+\n\u2022 Critical Thinking
+\n\u2022 Self-Awareness
+\n\u2022 Assertiveness
+\n\u2022 Empathy
+\n\u2022 Stress Management
+\n\u2022 Time Management
+\n\u2022 Anger Management
+\n\u2022 Emotional Intelligence
+\n\u2022 Social Intelligence"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="If language is not correct, then what is said is not what is meant; if what is said is not what is meant, then what must be done remains undone; if this remains undone, then morals and art will deteriorate; if justice goes astray, the people will stand about in helpless confusion. Hence, there shall be no arbitrariness in what is said. This matters above everything."
+            ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/mainColor"
+                android:text="-Confucius"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        app:showAsAction="always"
+        android:id="@+id/navigation_finishing_school"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    android:id="@+id/training_layout"
+    tools:context="com.bhadresha.tejas.sannibh.training">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="\u2022 We have started with a vision to bridge the gap between skills expected by the IT Industry and talent created by academic institutions.
+Sannibh Technologies provides Finishing Schools and Training as per global standards with expertise in the area of Web Development using ASP.Net, PHP and Java, Mobile Application Development using Android and iPhone, Software Testing and Quality Assurance, Ethical Hacking and Information Security."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Big Data"
+                android:textColor="#6666ff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:text="\n\u2022 Hadoop
+\n\u2022 HDFS
+\n\u2022 MapReduce, Yarn
+\n\u2022 MongoDB
+\n\u2022 Apache Sqoop
+\n\u2022 Apache Flume
+\n\u2022 Apache Hive
+\n\u2022 Apache HBase
+\n\u2022 Apache Spark
+\n\u2022 Apache Kafka
+\n\u2022 Apache Oozie
+\n\u2022 Scala"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Ethical Hacking and Penetration Testing"
+                android:textColor="#6666ff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:text="\n\u2022 Web Hacking
+\n\u2022 Mobile Hacking
+\n\u2022 Wifi Hacking"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Website Development"
+                android:textColor="#6666ff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:textSize="20dp"
+                android:text="\n\u2022 WordPress
+\n\u2022 CodeIgniter
+\n\u2022 Drupal
+\n\u2022 Joomla
+\n\u2022 Magento
+\n\u2022 Laravel
+\n\u2022 HTML5, CSS3
+\n\u2022 BootStrap
+\n\u2022 PHP
+\n\u2022 .NET
+\n\u2022 Angular JS
+\n\u2022 Node JS"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Mobile Application Development"
+                android:textColor="#6666ff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:text="\n\u2022 Android
+\n\u2022 iPhone"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Programming Languages"
+                android:textColor="#6666ff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:text="\n\u2022 C, C++
+\n\u2022 Java
+\n\u2022 Python"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        app:showAsAction="always"
+        android:id="@+id/navigation_training"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

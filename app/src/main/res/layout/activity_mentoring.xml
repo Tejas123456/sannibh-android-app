@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:id="@+id/mentoring_layout"
+    android:layout_height="match_parent"
+    tools:context="com.bhadresha.tejas.sannibh.mentoring">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="\u2022 Sannibh Technologies has instigated its Mentoring Programme with an aim to initiate a learning and development partnership with the individuals or learners in the technical field."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#6666ff"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="Objectives of the Mentoring Programme :-"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="\u2022 To assist learners in identifying and working towards achieving academic goals and objectives
+\n\u2022 To provide guidance and support by creating an atmosphere of communication, openness and trust
+\n\u2022 To develop technical knowledge of the learners through assigning specific tasks/ projects
+\n\u2022 To assess the current level of expertise and make recommendations on career path development
+\n\u2022 To provide enrichment programmes for high potential learners and remediation and academic help to low scoring learners
+\n\u2022 To provide awareness of opportunities and activities to broaden industry related experience
+\n\u2022 To offer apprenticeship locally"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textColor="#6666ff"
+                android:text="The Mentoring Programme is made up of two major components :-"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:text="\u2022 PATE Programme (Personal Ability and Technical Enrichment Programme)
+\n\u2022 GRP Programme (Getting Ready for Placement Programme)"
+            ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="\u2022 The different common techniques of mentoring namely Accompanying, Sowing, Catalyzing, Showing and Harvesting etc. are used both formally and informally to bring out the best in the learners."
+                ></TextView>
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        app:showAsAction="always"
+        android:id="@+id/navigation_mentoring"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

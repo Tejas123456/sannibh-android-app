@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    android:id="@+id/cppd_layout"
+    tools:context="com.bhadresha.tejas.sannibh.cppd">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/mainColor"
+                android:textStyle="italic"
+                android:text="CPPD :- Continuing Personal and Professional Development"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="\n\u2022 The importance of Continuing Personal and Professional Development should not be underestimated-it is a career- long obligation for practicing professionals."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/mainColor"
+                android:textStyle="bold"
+                android:text="\nTEACHER TRAINING"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="\n\u2022 Highly skilled teachers are one of the singlemost important influences on students success.
+\n\u2022 Class size and other factors characterizing education do not impact students learning trajectories as much as the quality of their teachers.
+\n\u2022 Teachers facilitate the process whereby students cultivate habits of mind and knowledge, schemes that are prerequisites for success, meaningful contributions and prosperity in an open, technological world.
+\n\u2022 This makes effective teacher training of paramount importance in the cultivation of an educated citizenry within the country."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#6666ff"
+                android:textStyle="bold"
+                android:text="\nObjectives of Training Program :-"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="\n\u2022 To build confidence in the potential of the educators.
+\n\u2022 To create love and respect for teaching profession thereby creating a favorable positive attitude.
+\n\u2022 To equip the new entrants in the teaching profession with the competencies requisite for dealing with the learners and to increase their suitability for the teaching profession.
+\n\u2022 To enable the teachers to refine and improve their teaching skills.
+\n\u2022 To familiarize the teachers with latest concepts in content as well as pedagogy and methods required to teach particular subjects.
+\n\u2022 To enable the teachers to introduce and nurture innovations in the education system so as to reflect educational philosophy.
+\n\u2022 To enable the teachers to understand the student better and deal with them more scientifically based on knowledge of educational psychology.
+\n\u2022 To enable the teachers to cope up with the challenges of teaching situations.
+\n\u2022 To build up an attitude of research and experimentation.
+\n\u2022 To enable the teachers to become reflective practitioners and engage in ones own professional development as a part of lifelong learning."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/mainColor"
+                android:textStyle="bold"
+                android:text="\nTEACHER APPRAISAL"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="\n\u2022  Imparting teacher training is directly related to raising teaching performance and ensuring that teachers perform at their best which in turn is related to enhanced student learning.
+\n\u2022 Imparting training in piece-meals will not serve the purpose if not supplemented with continuous evaluation of teachers followed by feedback.
+\n\u2022 From the perspective to maintain and raise educational standards, effective monitoring and evaluation of teaching thus becomes imperative.
+\n\u2022 Evaluation of teachers can have two specific purposes/functions :-
+\t» Improvement function and
+\t» Accountability function
+\n\u2022 It is essential to know the strengths of teachers and identify those aspects of their practice which could be further developed.
+\n\u2022 Meaningful teacher evaluation can involve an accurate appraisal of effectiveness of teaching, its strengths and areas for development, followed by feedback, training, coaching, mentoring, support and opportunities for professional development.
+\n\u2022 It is also essential to ensure that teachers perform at their best to enhance student learning and then to celebrate, recognize and reward the work of teachers which can be in the form of career advancement and /or salaries, bonus pay, certificate of appreciation or possibility of sanctions for underperformance."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#6666ff"
+                android:textStyle="bold"
+                android:text="\nObjectives of Teacher appraisal :-"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="\n\u2022 To improve quality of instruction and contribute to the successful achievement of the goals and objectives defined in the educational plan (benchmarking teacher quality)
+\n\u2022 To assess the effectiveness and competence of the teachers
+\n\u2022 To assess the strengths of the teachers
+\n\u2022 To identify areas in the need of improvement
+\n\u2022 To provide support, mentoring and training
+\n\u2022 To assure continued professional growth
+\n\u2022 To make professional development more individualized
+\n\u2022 To monitor and support the organizations employment decisions"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="\n\u2022  Sannibh Technologies is dedicated to provide quality training through skilling and mentoring of educators thereby contributing to the realization of the unique innate potential in each and every learner."/>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        app:showAsAction="always"
+        android:id="@+id/navigation_cppd"
+        app:menu="@menu/navigation_menu">
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
